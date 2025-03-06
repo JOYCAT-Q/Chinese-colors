@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap');
+
 @import "tailwindcss";
 
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --font-chinese: 'Noto Sans SC', sans-serif;
 }
 
 @theme inline {
@@ -22,5 +25,48 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-chinese), Arial, sans-serif;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.3s ease-out forwards;
+}
+
+/* 添加暗色模式支持 */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #1a1a1a;
+    color: #ffffff;
+  }
+  
+  .bg-white {
+    background-color: #2d2d2d;
+  }
+  
+  .text-gray-900 {
+    color: #ffffff;
+  }
+  
+  .text-gray-600 {
+    color: #a0a0a0;
+  }
+  
+  .border-t {
+    border-color: #404040;
+  }
 }
