@@ -5,7 +5,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 First, clone the repository:
 
 ```bash
-git clone https://github.com/your-username/chinese-colors.git
+git clone https://github.com/JOYCAT-Q/chinese-colors.git
 cd chinese-colors
 ```
 
@@ -53,3 +53,4 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+![屏幕截图 2025-03-06 235137](https://github.com/user-attachments/assets/dd56fa43-9582-4006-804c-d029c4d1d217)
